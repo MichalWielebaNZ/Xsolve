@@ -1,5 +1,3 @@
-// JSON Handling
-
 var list
 var table = document.getElementById('tbody #table')
 function callback(response)  {
@@ -39,7 +37,7 @@ function dynamicSort(property) {
   }
 }
 
-// console.log(list.sort(dynamicSort("id")));  - test / ok
+// console.log(list.sort(dynamicSort("id"))); 
 
 
 // notes
